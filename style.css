@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 a {
   color: #ffffff;
   text-decoration: none;
@@ -62,6 +66,10 @@ main {
 }
 
 @media (max-width: 999px) {
+  .body {
+    overflow-x: hidden;
+  }
+
   .nav-list {
     position: absolute;
     top: 8vh;
